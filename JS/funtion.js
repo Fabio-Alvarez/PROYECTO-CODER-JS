@@ -24,4 +24,4 @@ return precioConIva;
     }
 
     document.write("<h1>Precio sin iva: </h1>" + precio + " $ ");
-    document.write("<h1>Precio más Iva: </h1>" + precioFinal + " $ ");
+    document.write("<h1>Precio más iva: </h1>" + precioFinal + " $ ");
