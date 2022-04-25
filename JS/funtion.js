@@ -2,7 +2,8 @@
 // SI NO INGRESAMOS EL IVA, SE APLICA POR DEFECTO EL 19% (IVA EN COLOMBIA)
 // CON EL FIN DE CALCULAR EL IVA DE LOS DIAS CUANDO HAY REBAJA EN COLOMBIA
 
-function precioMasIva(precio, iva){
+
+function precioMasIva(precio, iva,){
 
 iva = iva || 19
 
@@ -11,6 +12,8 @@ let precioConIva = (precio) + (precio*iva/100);
 return precioConIva;
 
     }
+    let ingresarNombre = prompt(" Ingrese nombre del producto : ");
+
     let precio = Number(prompt("Introduce el precio del producto :"));
 
     let iva = Number(prompt("Introduce el iva % :"));
@@ -23,5 +26,5 @@ return precioConIva;
       var precioFinal = precioMasIva(precio);
     }
 
-    document.write("<h1>Precio sin iva: </h1>" + precio + " $ ");
-    document.write("<h1>Precio más iva: </h1>" + precioFinal + " $ ");
+    document.write("<h1>El producto es: </h1>" + ingresarNombre +"<h1>Precio sin iva: </h1>" + precio + " $ ");
+    document.write("<h1>El producto es: </h1>" + ingresarNombre +"<h1>Precio más iva: </h1>" + precioFinal + " $ ");
