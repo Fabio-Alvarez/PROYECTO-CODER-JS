@@ -1,5 +1,6 @@
 //ALGORITMO PARA ESCRIBIR NOMBRE DE ESTUDIANTE DAR UNA NOTA DEPUES EVALUAR Y DAR RESULTADO EN MENSAJE
 
+
 for (i = 1; i<=5; i++){
 let ingresarNombre = prompt(" Ingrese nombre del Estudiante : ");
     //PIDE UNA NOTA POR TECLADO Y LA GUARDA EN LA VARIABLE NOTA
